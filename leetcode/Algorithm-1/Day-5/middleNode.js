@@ -9,7 +9,8 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
- var middleNode = function(head) {
+let head = [1,2,3,4,5]
+var middleNode = function(head) {
     let len =  0;
     let node = head;
     while(node !== null){
@@ -21,7 +22,6 @@
     for (let i = 0; i< middle; i++){
         node = node.next;
     }
-    // console.log(node)
-    return node;
-    
+    console.log(node)
+    return node; 
 };
